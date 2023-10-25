@@ -16,3 +16,7 @@ terraform {
 provider "hcloud" {
   token = var.hcloud_token
 }
+
+provider "cloudflare" {
+ cloudflare_token = var.cloudflare_api_token
+}

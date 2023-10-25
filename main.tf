@@ -1,6 +1,3 @@
-
-
-
 resource "hcloud_server" "node1" {
   name        = "Luciano2"
   image       = "ubuntu-22.04"
